@@ -2,8 +2,9 @@ from turtle import *
 bgcolor("green")
 pencolor("black")
 große = 2
+ht()
 penup()
-backward(100)
+backward(200)
 pendown()
 def a():
     left(60)
@@ -40,7 +41,11 @@ def lehr():
     forward(15*große)
     pendown()
 titel = [a,l,i]
-ht()
+
 a()
 l()
 i()
+a()
+l()
+i()
+done()
