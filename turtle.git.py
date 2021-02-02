@@ -1,0 +1,43 @@
+from turtle import *
+bgcolor("green")
+pencolor("black")
+große = 2
+def a():
+    left(60)
+    forward(50*große)
+    right(120)
+    forward(20*große)
+    right(120)
+    forward(20*große)
+    right(180)
+    forward(20*große)
+    right(60)
+    forward(30*große)
+    left(60)
+    lehr()
+def l():
+    penup()
+    left(90)
+    forward(50*große)
+    pendown()
+    backward(50*große)
+    right(90)
+    forward(20*große)
+    lehr()
+def i():
+    penup()
+    left(90)
+    forward(50*große)
+    pendown()
+    backward(50*große)
+    right(90)
+    lehr()
+def lehr():
+    penup()
+    forward(15*große)
+    pendown()
+titel = [a,l,i]
+ht()
+a()
+l()
+i()
