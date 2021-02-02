@@ -2,6 +2,9 @@ from turtle import *
 bgcolor("green")
 pencolor("black")
 große = 2
+penup()
+backward(100)
+pendown()
 def a():
     left(60)
     forward(50*große)
